@@ -6,14 +6,15 @@ from pydantic import BaseModel
 
 class Item(BaseModel):
     name: str
-    description: str | None = None # trong dữ liệu json gửi đến sever có thể ko cần vì ở dạng tùy chọn
+    # trong dữ liệu json gửi đến sever có thể ko cần vì ở dạng tùy chọn
+    description: str | None = None
     price: float
     tax: float | None = None  # dạng tùy chọn
 
 
 app = FastAPI()
 
-# b2: Định Nghĩa Endpoint POST
+# b2: Định Nghĩa Endpoint
 
 
 @app.post("/items/")
