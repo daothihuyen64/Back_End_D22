@@ -1,0 +1,5 @@
+Mục tiêu : gửi dữ liệu từ client đến sever như post (tạo dữ liệu mới trong sever) và put (cập nhật dữ liệu của sever)
+b1: Định nghĩa mô hình dữ liệu (sử dụng pydantic)
+b2: Định Nghĩa Endpoint (đưa mô hình vào đường dẫn dưới dạng khai báo tham số hàm)
+b3: Chạy sever (fastapi dev <tên file>)
+b4: Gửi yêu cầu POST hoặc PUT (có thể thông qua postman)
