@@ -1,0 +1,15 @@
+- Mục tiêu: thêm ràng buộc cho Query Parameter (tham số truy vấn)
+- Sử dụng : Annotated kết hợp vs Query
+    1. Annotated : Kết hợp kiểu dữ liệu vs metadata (các quy tắc cho kiểu dữ liệu đó)
+    2. Query (metadata): Hàm để khai báo và xác thực các thuộc tính của tham số truy vấn
+        2.1. Xác thực chung:
+            + alias: đặt bí danh cho tên biến trong source, người dùng api sử dụng bí danh, coder sử dụng tên biến trong source
+            + title: tiêu đề cho biến - hiển thị trong fastapi docs
+            + description: mô tả cho biến - hiển thị trong fastapi docs
+            + deprecated: thêm chú thích - biến này không còn được sử dụng nữa
+            + Query(include_in_schema=False) : không hiển thị biến trong fastapi docs
+        
+        2.2. Xác thực cụ thể cho dữ liệu :
+            + min_length: chiều dài nhỏ nhất của tham số truy vấn
+            + max_length: chiều dài lớn nhất của tham số truy vấn
+            + pattern : quy định về cú pháp của tham số truy vấn (giống regex)
