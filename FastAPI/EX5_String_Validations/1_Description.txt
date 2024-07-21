@@ -1,6 +1,6 @@
-- Mục tiêu: thêm ràng buộc cho Query Parameter (tham số truy vấn)
+- Mục tiêu: thêm ràng buộc chuỗi cho Query Parameter (tham số truy vấn)
 - Sử dụng : Annotated kết hợp vs Query
-    1. Annotated : Kết hợp kiểu dữ liệu vs metadata (các quy tắc cho kiểu dữ liệu đó)
+    1. Annotated : Kết hợp kiểu dữ liệu vs metadata (các thông tin bổ sung cho kiểu dữ liệu đó)
     2. Query (metadata): Hàm để khai báo và xác thực các thuộc tính của tham số truy vấn
         2.1. Xác thực chung:
             + alias: đặt bí danh cho tên biến trong source, người dùng api sử dụng bí danh, coder sử dụng tên biến trong source

@@ -1,0 +1,13 @@
+Mục tiêu : Thêm ràng buộc số cho tham số đường dẫn Path, cũng có thể dùng cho tham số truy vấn Query
+- Sử dụng : Annotated kết hợp vs Path (đang dùng cho tham số đường dẫn)
+    1. Xác thực chung:
+        giống như query
+    
+    2. Xác thực riêng:
+        gt: greater than
+        ge: greater than or equal
+        lt: less than
+        le: less than or equal
+
+- Chú ý: 
+    1. Vì tham số đường dẫn là bắt buộc phải có trong URL nên dù có giá trị mặc định hay không thì vẫn bắt buộc.
