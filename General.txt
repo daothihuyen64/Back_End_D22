@@ -1,0 +1,5 @@
+1. Có 3 loại tham số chính:
+    - Path Parameter : tham số đường dẫn - xác định đường dẫn tới tài nguyên - Là 1 phần bắt buộc trong URL
+    - Query Parameter : tham số truy vấn - sử dụng để lọc hoặc tùy chỉnh dữ liệu trả về từ API - Là 1 phần trong URL - trong URL nếu không phải path parameter thì tham số đó là query parameter.
+    - Request Body : tham số Body - dữ liệu mà client muốn gửi đến sever để cập nhật sever - không nằm trong URL - nằm dạng file JSON riêng.
+    
