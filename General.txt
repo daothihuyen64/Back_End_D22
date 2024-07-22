@@ -1,0 +1,16 @@
+1. Có 3 loại tham số chính:
+    - (Xác định đường dẫn URL) Path Parameter : tham số đường dẫn - xác định đường dẫn tới tài nguyên - Là 1 phần bắt buộc trong URL
+    - (Xác định đường dẫn URL) Query Parameter : tham số truy vấn - sử dụng để lọc hoặc tùy chỉnh dữ liệu trả về từ API - Là 1 phần trong URL - trong URL nếu không phải path parameter thì tham số đó là query parameter.
+    - (Xác định dữ liệu) Request Body : tham số Body - dữ liệu mà client muốn gửi đến sever để cập nhật sever - không nằm trong URL - nằm dạng file JSON riêng.
+
+2. Có 4 phương thức chính:
+    - GET: lấy dữ liệu từ sever
+    - POST: tạo dữ liệu mới trong sever
+    - PUT : cập nhật dữ liệu trong sever
+    - DELETE: Xóa dữ liệu trong sever
+
+3. Các thao tác:
+    - khi client sử dụng các phương thức - tự động sinh ra 1 'yêu cầu http' đến URL đã được khai báo. 
+        + Yêu cầu http : Là thông điệp mà client gửi tới server để yêu cầu tài nguyên hoặc thực hiện hành động.
+        + URL : Là địa chỉ mà yêu cầu HTTP được gửi tới
+        ! Khi sử dụng postman để thực hiện các phương thức - yêu cầu http (xem ở phần console) - URL là phần người dùng tự nhập để yêu cầu http được gửi đến.
