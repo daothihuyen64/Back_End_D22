@@ -1,0 +1,7 @@
+Mục tiêu : hiểu mô hình pydantic lồng nhau
+
+1. Ta đã biết: tham số body có thể là 1 mô hình pydantic, 
+    - các thuộc tính của mô hình pydantic này có thể là 1 list, dict, tuple, set, ....
+    - các thuộc tính của mô hình pydantic này có thể là mô hình pydantic khác
+    - các thuộc tính của mô hình pydantic này có thể là 1 list các mô hình pydantic khác
+    
