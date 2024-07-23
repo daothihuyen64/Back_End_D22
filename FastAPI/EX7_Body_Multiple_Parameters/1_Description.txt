@@ -5,15 +5,8 @@ Mục tiêu : hiểu tham số body
 2. Có thể khai báo nhiều tham số body 
     - khi đó file JSON phải để dữ liệu gửi đi dưới dạng (key : value) để phân biệt
       key(tên tham số body), value( dữ liệu ứng với tham số).
-      vd: 
-        {
-            "user": {
-                "username": "dave",
-                "full_name": "Dave Grohl"
-            },
-            "importance": 5
-        }
-    - Nếu tham số là 1 giá trị mà không phải mô hình thì khi khai báo trong hàm phải thêm body(), nếu không thì tham số đó trở thành tham số truy vấn (query)
+
+    - Nếu có tham số là 1 giá trị mà không phải mô hình thì khi khai báo trong hàm phải thêm body(), nếu không thì tham số đó trở thành tham số truy vấn (query)
 
 3. Bình thường khi chỉ có 1 tham số body thì file JSON gửi đi không cần thêm key chỉ cần value
 nhưng nếu muốn thêm key thì trong phần body cần sửa như sau: Body(embed=True)
