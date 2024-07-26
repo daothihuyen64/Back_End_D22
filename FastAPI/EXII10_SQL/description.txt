@@ -1,0 +1,5 @@
+1. mô hình SQLAlchemy (là các class) : trong models.py
+    name = Column(String)
+
+2. mô hình Pydantic (tạo các ràng buộc dữ liệu ): trong schemas.py
+    name: str
